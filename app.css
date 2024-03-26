@@ -72,7 +72,8 @@ body {
     text-transform: uppercase;
 }
 
-.pricing-plan {
+.pricing-plan,
+.pricing-plan-Deducated {
     border-bottom: 1px solid #E1F1FF;
 }
 
@@ -150,6 +151,11 @@ body {
     .pricing-plan {
         border-bottom: none;
         border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan-Dedicated {
+        border-bottom: none;
         padding: 25px 50px;
     }
 }
