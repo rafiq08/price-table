@@ -56,6 +56,7 @@ body {
     background-color: #529FFA;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -65,4 +66,77 @@ body {
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #E1F1FF;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-image {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    margin: 50px 0 25px;
+    color: #015ff9;
+}
+
+.pricing-features-items {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #E1F1FF;
+}
+
+.pricing-features-items:last-child {
+    border-bottom: 1px solid #E1F1FF;
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+.pricing-button {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.pricing-button:hover, 
+.pricing-button:focus {
+    background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+    color: #ffffff;
+    background-color: #48aaff;
+}
+
+.pricing-button.is-featured:hover, 
+.pricing-button.is-featured:focus {
+    color: #ffffff;
+    background-color: #269aff; 
 }
