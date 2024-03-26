@@ -66,6 +66,7 @@ body {
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    display: flex;
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
@@ -139,4 +140,16 @@ body {
 .pricing-button.is-featured:focus {
     color: #ffffff;
     background-color: #269aff; 
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
 }
